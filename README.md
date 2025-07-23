@@ -1,12 +1,44 @@
-# J.A.R.V.I.S
+# F.R.I.D.A.Y. Your personal Assistant
 
-An AI oriented Chatbot
+This is a Python-based AI assistant inspired by *Jarvis*, capable of:
 
-Create a Python environment using
+- 🔍 Searching the web  
+- 🌤️ Weather checking
+- 📨 Sending Emails
+- 📷 Vision through camera (Web app)
+- 🗣️ Speech
+- 📝 Chat (Web app)
+
+This agent uses LiveKit
+
+- To install the packages use:
 
 ```bash
-python -m venv venv
+pip install -r requirements.txt
 ```
+
+- Download or clone the repository
+
+```bash
+git clone https://github.com/aaradhy25tiwari/J.A.R.V.I.S.-AI.git
+```
+
+---
+
+## Steps to the run the model
+
+1. Create the Virtual Envrionment first!
+
+    ```bash
+    python -m venv venv
+    ```
+
+2. Activate it
+3. Install all the required libraries in the requirements.txt file
+4. In the .ENV - File you should paste your API-Keys and your LiveKit Secret, LiveKit URL.
+   If you want to use the Send Email Tool also specify your Gmail Account and App Password.
+5. Make sure that your LiveKit Account is set-up correctly.
+Create a Python environment using
 
 To activate the environment
 
@@ -14,8 +46,4 @@ To activate the environment
 .\venv\Scripts\activate
 ```
 
-Install the required Modules useing
-
-```bash
-pip install -r .\requirements.txt
-```
+## Happy Coding! 🖥️
